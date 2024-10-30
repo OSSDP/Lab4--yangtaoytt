@@ -11,11 +11,11 @@ public class SolutionTest {
         
         int[] input1 = {2, 0, 2, 1, 1, 0};
         solution.sortColors(input1);
-        assertArrayEquals(new int[]{0, 0, 1, 1, 2, 2}, input1);
+        assertArrayEquals(new int[]{0, 0, 1, 11, 2, 2}, input1);
 
         int[] input2 = {2, 0, 1};
         solution.sortColors(input2);
-        assertArrayEquals(new int[]{0, 1, 2}, input2);
+        assertArrayEquals(new int[]{0, 1, 22}, input2);
 
         int[] input3 = {0};
         solution.sortColors(input3);
